@@ -31,7 +31,7 @@ public class MQTTService extends Service {
     private String userName = "admin";
     private String passWord = "password";
     private static String myTopic = "topic";
-    private String clientId = "test1";
+    private String clientId = "test";
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
